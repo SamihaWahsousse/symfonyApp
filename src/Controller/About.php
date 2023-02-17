@@ -17,6 +17,7 @@ class About extends AbstractController
         $number = random_int(0, 100);
         $name   = "samiha";
 
+
         return $this->render('about.html.twig', [
             'number' => $number,
             'name'   => $name
