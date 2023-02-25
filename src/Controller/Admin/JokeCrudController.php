@@ -23,8 +23,6 @@ class JokeCrudController extends AbstractCrudController
             IntegerField::new('id')->hideOnForm(),
             TextField::new('joke'),
             TextField::new('category'),
-
-
         ];
     }
 }
